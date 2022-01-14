@@ -1,0 +1,41 @@
+html {
+  font-size: 70%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+
+/*header*/
+.logo {
+  float: left;
+  padding-left: 10px;
+}
+
+ul.list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 150%;
+}
+
+li {
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+header {
+  background-color: antiquewhite;;
+}
+
+/*footer*/
+footer {
+  background-color: darkcyan;
+  text-align: center;
+  font-size: 180%;
+  padding: 5%;
+  color: white;
+}
