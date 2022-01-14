@@ -2,29 +2,43 @@
 <html>
   <head>
     <title>about</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <div class="header">
-      <img src="images/F.png" width=100px height=100px>
-      <p><a href="about.html">ABOUT</a></p>
-      <p><a href="index.html">PORTFOLIO</a></p>
-    </div>
+
+    <header class="header">
+      <div class="logo"> <img src="images/F.png" width=200px height=200px></div>
+      <ul class="list">
+        <li><p class="about"><a href="about.html">ABOUT</a></p></li>
+            <li><p class="portfolio"><a href="index.html">PORTFOLIO</a></p></li>
+      </ul>
+    </header>
+
     <div class="main">
       <h2>PROFILE</h2>
-      <p>name:Rion</p>
-      <p>work:University student</p>
-      <p>email:rionfx.42@gmail.com</p>
+      <div class="profile">
+        <div class="profile-image"><img src="images/rion.png" width=200px height=200px></div>
+        <ul class="Profile-list">
+          <li>name:Rion</li>
+          <li>work:University student</li>
+          <li>email:rionfx.42@gmail.com</li>
+        </ul>
+      </div>
 
       <h2>SKILL</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>Swift</li>
-        <li>C++</li>
-        <li>Visual Studio Code</li>
+      <ul class="Skill-list">
+        <div class="skill-content">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+        </div>
+        <div class="skill-content">
+          <li>Swift</li>
+          <li>C++</li>
+          <li>Visual Studio Code</li>
+        </div>
       </ul>
 
       <h2>SNS</h2>
@@ -37,6 +51,6 @@
     </div>
     
 
-      <div class="footer">©2022 Rion</div>
+      <footer class="footer">©2022 Rion</footer>
   </body>
 </html>

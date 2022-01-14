@@ -1,6 +1,9 @@
+@charset "UTF-8";
+
 html {
   font-size: 70%;
   scroll-behavior: smooth;
+  margin: auto;
 }
 
 a {
@@ -10,25 +13,65 @@ a {
 
 
 /*header*/
+.header {
+  margin-bottom: 330px;
+}
+
 .logo {
   float: left;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 ul.list {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  font-size: 150%;
+  font-size: 300%;
 }
 
 li {
-  padding: 0 10px;
+  padding: 0 20px;
   margin-top: 30px;
 }
 
-header {
-  background-color: antiquewhite;;
+/*main*/
+
+/*index main*/
+h1 {
+  font-size: 700%;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+.main h2 {
+  font-size: 400%;
+  text-align: center;
+}
+
+/*about main*/
+.profile {
+  padding-bottom: 40px;
+}
+
+.profile-image {
+  float: left;
+  margin-left: 580px;
+  padding-right: 100px;
+}
+
+.Profile-list {
+  margin-left: 50px;
+  text-align: left;
+  list-style: none;
+  font-size: 30px;
+
+}
+
+.Skill-list {
+  text-align: center;
+  list-style: none;
 }
 
 /*footer*/
@@ -39,3 +82,5 @@ footer {
   padding: 5%;
   color: white;
 }
+
+
